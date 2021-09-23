@@ -8,6 +8,10 @@ document.write(" I love you, " + "You love me " + "we\'re a happy family");//con
 var b = " concatenated " + " string "//concatenate the two strings and assigns it to variable b
 document.write(b);// displays variable b
 
+var a = "Andrew ";
+var b = "Nally";
+document.write(a+b);
+
 var friends = "WeHoes", Roommate = " Jacob", crazy = "Danny", ex = "Matt ", bff = "Nick", neighbor = "Landon";
 document.write(ex); //assigns each strings to a type of friend variable
 
