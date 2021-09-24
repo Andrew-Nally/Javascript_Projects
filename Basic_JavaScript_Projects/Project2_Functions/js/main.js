@@ -10,3 +10,13 @@ function strFunction(){//declares strFunction
     document.getElementById("concatenate").innerHTML.str;// grabs the element with the concatenate id  and adds the str variable to the element 
     document.write(str); //displays the new value for the str variable when clicked
 }
+
+var x = jsFunction(1,2);
+    function jsFunction( a, b){
+        return a * b + a - b + a / b / a + b - a * b;
+    }
+    document.write(x);
+
+    function drew(){
+        document.getElementById('greet').innerHTML = "Hello Drew!"
+    }
