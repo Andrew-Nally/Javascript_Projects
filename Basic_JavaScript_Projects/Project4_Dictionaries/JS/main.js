@@ -1,12 +1,13 @@
 function my_Dictionary() {//declares the dictionary
-    var Car = {//instantiates the object "Car"
-        type:"sedan",//kvp
-        make:"Honda",//kvp
-        model:"civic",//kvp
-        year:2020,//kvp
-        color:"black"//kv[]
+    var Animal= {//instantiates the object "Car"
+        Species:"Dog",//kvp
+        Color:"Black",//kvp
+        Breed: "Labrador",//kvp
+        Age: 5,//kvp
+        Sound: "Bark!"//kv[]
     };
-    delete Car.type//deletd type kvp
-    document.getElementById("Dictionary").innerHTML = Car.type;//dispplays kvp to document but because the funciton remove the kvp from dictionary
+    delete Animal.Sound;//deletd type kvp
+    
+    document.getElementById("Dictionary").innerHTML = Animal.Sound;//displays kvp to document but because the funciton remove the kvp from dictionary
 
 }
